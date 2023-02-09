@@ -191,6 +191,7 @@ class MapFragment : Fragment(), UserLocationObjectListener, GeoObjectTapListener
         coordinates.visibility = View.GONE
         findUserLocation.visibility = View.VISIBLE
         instruction.text = requireContext().getString(R.string.instruction)
+        userLocationLayer.isVisible = false
     }
 
     override fun onMapLongTap(p0: Map, p1: Point) {
