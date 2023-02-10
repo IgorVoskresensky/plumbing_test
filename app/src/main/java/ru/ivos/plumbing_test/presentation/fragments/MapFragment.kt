@@ -180,6 +180,8 @@ class MapFragment : Fragment(), UserLocationObjectListener, GeoObjectTapListener
             mapView.map.selectGeoObject(selectionMetadata.id, selectionMetadata.layerId)
         }
 
+        userLocationLayer.isVisible = false
+
         coordinates.visibility = View.GONE
         instruction.visibility = View.VISIBLE
 

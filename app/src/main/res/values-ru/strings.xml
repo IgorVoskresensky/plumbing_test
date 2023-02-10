@@ -9,7 +9,7 @@
     <string name="finder">Finder...</string>
     <string name="instruction">Нажмите и удерживайте любую точку на карте, чтобы задать координаты</string>
     <string name="tap_to_reset">Нажмите любую точку на карте, чтобы сбросить координаты</string>
-    <string name="actually_destination">Ваши пункт назначения:</string>
+    <string name="actually_destination">Ваш пункт назначения:</string>
     <string name="havent_set_coor">Вы ещё не задали координаты точки назначения</string>
     <string name="set_as_destination_point">Подтвердить координаты</string>
     <string name="reset">сбросить</string>
